@@ -1,0 +1,55 @@
+baseURL: 'http://artsnet.ir/'
+languageCode: 'en-us'
+title: 'artsnet'
+theme: 'PaperMod'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  #env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  keywords: [Blog, Portfolio, Python, Programming, Develop, Article]
+  author: Me
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+params:
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+  
+  socialIcons:
+    - name: github
+      url: "https://github.com/amirhossein-sg"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/amirhossein-hasanzadeh"
+  
+  label:
+    text: "artsnet"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
