@@ -56,6 +56,8 @@ params:
 menu:
   main:
   - name: Sign In
+    params:
+      rel: external
     pre: <i class="fa-solid fa-code"></i>
-    pageRef: /
+    url: https://artsnet-b47f5.firebaseapp.com/__/auth/handler
     weight: 10
