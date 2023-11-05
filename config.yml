@@ -56,5 +56,6 @@ params:
 menu:
   main:
   - name: Sign In
+    pre: <i class="fa-solid fa-code"></i>
     pageRef: /
     weight: 10
