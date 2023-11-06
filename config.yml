@@ -8,14 +8,14 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-#googleAnalytics: UA-123-45
+googleAnalytics: G-RYR2VQET39
 
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
-  #env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Portfolio, Python, Programming, Develop, Article, Software, Software Engineering]
   author: Me
   DateFormat: "January 2, 2006"
@@ -52,3 +52,10 @@ params:
     text: "artsnet"
     icon: /apple-touch-icon.png
     iconHeight: 35
+
+# menu:
+#   main:
+#     - name: Sign In
+#       pre: <i class="fa-solid fa-code"></i>
+#       url: https://example.com
+#       weight: 10
