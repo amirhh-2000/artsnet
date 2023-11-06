@@ -1,4 +1,4 @@
-baseURL: 'http://artsnet.ir/'
+baseURL: 'https://artsnet.ir/'
 languageCode: 'en-us'
 title: 'artsnet'
 theme: 'PaperMod'
