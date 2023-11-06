@@ -16,7 +16,7 @@ minify:
 
 params:
   #env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  keywords: [Blog, Portfolio, Python, Programming, Develop, Article]
+  keywords: [Blog, Portfolio, Python, Programming, Develop, Article, Software, Software Engineering]
   author: Me
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -37,6 +37,13 @@ params:
   showtoc: false
   tocopen: false
 
+menu:
+  main:
+    - name: Sign In
+      pre: <i class="fa-solid fa-code"></i>
+      url: https://example.com
+      weight: 10
+
 params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
@@ -52,10 +59,3 @@ params:
     text: "artsnet"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-menu:
-  main:
-  - name: Sign In
-    pre: <i class="fa-solid fa-code"></i>
-    url: https://example.com
-    weight: 10
