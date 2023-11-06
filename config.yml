@@ -37,13 +37,6 @@ params:
   showtoc: false
   tocopen: false
 
-menu:
-  main:
-    - name: Sign In
-      pre: <i class="fa-solid fa-code"></i>
-      url: https://example.com
-      weight: 10
-
 params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
