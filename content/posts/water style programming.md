@@ -1,7 +1,7 @@
 ---
 title: "Water Style Programming!"
 date: 2023-04-21T17:04:18+03:30
-draft: true
+draft: false
 ---
 You probably learned different styles and techniques related to programming. \
 But today I am going to show you a new approach. It probably won't be like the techniques and tricks you've learned before!
