@@ -10,6 +10,24 @@ buildExpired: false
 
 googleAnalytics: G-RYR2VQET39
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  fa:
+    contentDir: content/fa
+    disabled: false
+    languageCode: fa
+    languageDirection: rtl
+    languageName: Persian
+    weight: 2
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    weight: 1
+
 minify:
   disableXML: true
   minifyOutput: true
