@@ -42,11 +42,10 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Portfolio, Python, Programming, Develop, Article, Software, Software Engineering]
-  author: Me
+  author: Amir Hossein
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
