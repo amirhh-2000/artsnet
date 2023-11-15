@@ -1,9 +1,9 @@
 @font-face {
-  font-family: {$params.fonts.primary.name};
-  src: url('/fonts/{$params.fonts.primary.file}'); 
+  font-family: Vazir;
+  src: url('/fonts/Vazir.woff2'); 
 }
 p:lang(fa) {
-  font-family: {$params.fonts.primary.name}; 
+  font-family: Vazir; 
 }
 
 .main {
