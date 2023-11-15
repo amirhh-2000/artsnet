@@ -10,6 +10,31 @@ buildExpired: false
 
 googleAnalytics: G-RYR2VQET39
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  fa:
+    contentDir: content/fa
+    disabled: false
+    languageCode: fa
+    languageDirection: rtl
+    languageName: Persian
+    weight: 2
+    params:
+      homeInfoParams:
+        Title: "سلام \U0001F44B"
+        Content: به وبلاگ من خوش آمدید
+      font:
+        name: Vazir
+        file: Vazir.woff2
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    weight: 1
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -17,11 +42,10 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Portfolio, Python, Programming, Develop, Article, Software, Software Engineering]
-  author: Me
+  author: Amir Hossein
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -52,10 +76,3 @@ params:
     text: "artsnet"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-# menu:
-#   main:
-#     - name: Sign In
-#       pre: <i class="fa-solid fa-code"></i>
-#       url: https://example.com
-#       weight: 10
