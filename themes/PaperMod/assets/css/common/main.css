@@ -2,7 +2,9 @@
   font-family: Vazir;
   src: url('/fonts/Vazir.woff2'); 
 }
-p:lang(fa) {
+p:lang(fa),
+h1:lang(fa),
+h2:lang(fa) {
   font-family: Vazir; 
 }
 
