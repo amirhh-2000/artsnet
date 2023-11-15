@@ -1,5 +1,5 @@
 @font-face {
-  src: url('{$params.custom_font_path}/vazir.woff2'); 
+  src: url('{$params.custom_font_path}/Vazir.woff2'); 
 }
 p:lang(fa),
 h1:lang(fa),
