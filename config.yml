@@ -24,6 +24,9 @@ languages:
       homeInfoParams:
         Title: "سلام \U0001F44B"
         Content: به وبلاگ من خوش آمدید
+      fonts:
+        name: Vazir
+        file: Vazir.woff2
   en:
     contentDir: content/en
     disabled: false
@@ -74,8 +77,3 @@ params:
     text: "artsnet"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
-  fonts:
-    primary:
-      name: Vazir
-      file: Vazir.woff2
