@@ -1,5 +1,5 @@
 ---
-title: "How to Be Happy"
+title: "چرا شاد نیستیم؟!"
 date: 2023-11-15T02:01:42+03:30
 draft: false
 ---
