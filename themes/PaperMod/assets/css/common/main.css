@@ -66,3 +66,13 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir.woff2') format('woff2');
+}
+p:lang(fa), 
+h1:lang(fa),
+h2:lang(fa) {
+  font-family: 'Vazir', sans-serif;
+}
