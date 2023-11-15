@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Vazir';
-  src: url('{{ $.Site.Params.custom_font_path }}/Vazir.woff2') format('woff2');
+  src: url('{{ $.Site.Params.customFontPath }}/Vazir.woff2') format('woff2');
 }
 p:lang(fa),
 h1:lang(fa),
