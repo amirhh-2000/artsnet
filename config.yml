@@ -20,6 +20,10 @@ languages:
     languageDirection: rtl
     languageName: Persian
     weight: 2
+    params:
+      homeInfoParams:
+        Title: "سلام \U0001F44B"
+        Content: به وبلاگ من خوش آمدید
   en:
     contentDir: content/en
     disabled: false
