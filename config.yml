@@ -52,3 +52,9 @@ params:
     text: "artsnet"
     icon: /apple-touch-icon.png
     iconHeight: 35
+
+params:
+  fonts:
+    primary:
+      name: Vazir
+      file: Vazir.woff2
