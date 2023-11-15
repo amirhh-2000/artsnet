@@ -24,7 +24,7 @@ languages:
       homeInfoParams:
         Title: "سلام \U0001F44B"
         Content: به وبلاگ من خوش آمدید
-      fonts:
+      font:
         name: Vazir
         file: Vazir.woff2
   en:
