@@ -1,11 +1,6 @@
 @font-face {
   src: url('{$params.customFontPath}/Vazir.woff2'); 
 }
-p:lang(fa),
-h1:lang(fa),
-h2:lang(fa){
-  font-family: 'Vazir', sans-serif;
-}
 
 .main {
     position: relative;
