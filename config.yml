@@ -39,20 +39,10 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Portfolio, Python, Programming, Develop, Article, Software, Software Engineering]
-  author: Amir Hossein
-  DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -73,3 +63,15 @@ params:
     text: "artsnet"
     icon: /apple-touch-icon.png
     iconHeight: 35
+
+  post:
+    author: Amir Hossein
+    DateFormat: "January 2, 2006"
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: true
+    comments: true
