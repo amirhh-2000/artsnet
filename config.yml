@@ -12,6 +12,8 @@ googleAnalytics: G-RYR2VQET39
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
+
+fontcode: Fira Code
 languages:
   fa:
     contentDir: content
@@ -20,6 +22,7 @@ languages:
     languageDirection: rtl
     languageName: Farsi
     weight: 2
+    fontbody: Vazirmatn
     params:
       homeInfoParams:
         Title: "سلام \U0001F44B"
@@ -38,7 +41,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  keywords: [Blog, Portfolio, Python, Programming, Develop, Article, Software, Software Engineering]
+  keywords: [Blog, Python, Programming, Article, Software]
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   disableSpecial1stPost: false
@@ -55,7 +58,7 @@ params:
   
   socialIcons:
     - name: github
-      url: "https://github.com/amirhossein-sg"
+      url: "https://github.com/amirhh-2000"
     - name: linkedin
       url: "https://www.linkedin.com/in/amirhossein-hasanzadeh"
   
