@@ -22,7 +22,7 @@ languages:
     languageDirection: rtl
     languageName: Farsi
     weight: 2
-    fontbody: Vazirmatn
+    fontbody: /static/fonts/Vazir.woff2
     params:
       homeInfoParams:
         Title: "سلام \U0001F44B"
