@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c622b2b673030d7",
+  "active": "99bbfbed08a99489",
   "lastOpenFiles": [
     "public/robots.txt",
     "public/sitemap.xml",
