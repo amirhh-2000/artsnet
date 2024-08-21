@@ -69,7 +69,7 @@ pre:hover .copy-code {
 
 @font-face {
   font-family: 'Vazir';
-  src: url('/static/fonts/Vazir.woff2/');
+  src: url('/static/fonts/Vazir.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
