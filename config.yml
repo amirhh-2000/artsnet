@@ -16,24 +16,50 @@ defaultContentLanguageInSubdir: true
 fontcode: Fira Code
 languages:
   fa:
-    contentDir: content
+    contentDir: content/fa
     disabled: false
-    languageCode: fa
+    languageCode: fa-FA
     languageDirection: rtl
     languageName: Farsi
     weight: 2
     fontbody: /static/fonts/Vazir.woff2
     params:
       homeInfoParams:
-        Title: "سلام \U0001F44B"
-        Content: به وبلاگ من خوش آمدید
+        Title: امیرحسین هستم
+        Content: اینجا افکار و تجربه‌هام رو به اشتراک می‌گذارم
+    menus:
+      main:
+      - name: خانه
+        pageRef: /
+        weight: 10
+      - name: درباره من
+        pageRef: /about-me
+        weight: 20
+      - name: تگ‌ها
+        pageRef: /fa-tags
+        weight: 30
   en:
-    contentDir: content
+    contentDir: content/en
     disabled: false
     languageCode: en-US
     languageDirection: ltr
     languageName: English
     weight: 1
+    params:
+      homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+    menus:
+      main:
+      - name: Home
+        pageRef: /
+        weight: 10
+      - name: About me
+        pageRef: /about-me
+        weight: 20
+      - name: Tags
+        pageRef: /en-tags
+        weight: 30
 
 minify:
   disableXML: true
@@ -52,9 +78,7 @@ params:
   tocopen: false
 
 params:
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  
   
   socialIcons:
     - name: github
