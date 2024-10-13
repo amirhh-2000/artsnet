@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 272.5
   },
   "right": {
     "id": "a25fe44d4a34d371",
@@ -147,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99bbfbed08a99489",
+  "active": "6c622b2b673030d7",
   "lastOpenFiles": [
     "public/robots.txt",
     "public/sitemap.xml",

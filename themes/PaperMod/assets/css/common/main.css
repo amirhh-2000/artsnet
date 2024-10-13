@@ -67,14 +67,3 @@ pre:hover .copy-code {
     display: block;
 }
 
-@font-face {
-  font-family: 'Vazir';
-  src: url('/static/fonts/Vazir.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: Vazir;
-}
-
