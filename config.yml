@@ -22,7 +22,6 @@ languages:
     languageDirection: rtl
     languageName: Farsi
     weight: 2
-    fontbody: /static/fonts/Vazir.woff2
     params:
       homeInfoParams:
         Title: امیرحسین هستم
@@ -67,7 +66,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  keywords: [Blog, Python, Programming, Article, Software]
+  keywords: [Blog, Python, Programming, Article, Software, Growth]
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   disableSpecial1stPost: false
@@ -78,8 +77,6 @@ params:
   tocopen: false
 
 params:
-  
-  
   socialIcons:
     - name: github
       url: "https://github.com/amirhh-2000"
