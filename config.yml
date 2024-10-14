@@ -17,9 +17,9 @@ languages:
   fa:
     contentDir: content/fa
     disabled: false
-    languageCode: fa-FA
+    # languageCode: fa-FA
     languageDirection: rtl
-    languageName: Farsi
+    languageName: "farsi"
     weight: 2
     params:
       homeInfoParams:
@@ -39,9 +39,9 @@ languages:
   en:
     contentDir: content/en
     disabled: false
-    languageCode: en-US
+    # languageCode: en-US
     languageDirection: ltr
-    languageName: English
+    languageName: "english"
     weight: 1
     params:
       homeInfoParams:
