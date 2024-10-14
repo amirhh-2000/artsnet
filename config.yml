@@ -13,7 +13,6 @@ googleAnalytics: G-RYR2VQET39
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
-fontcode: Fira Code
 languages:
   fa:
     contentDir: content/fa
@@ -67,6 +66,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Python, Programming, Article, Software, Growth]
+  author: Me
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   disableSpecial1stPost: false
@@ -76,7 +76,6 @@ params:
   showtoc: false
   tocopen: false
 
-params:
   socialIcons:
     - name: github
       url: "https://github.com/amirhh-2000"
@@ -99,3 +98,12 @@ params:
     ShowRssButtonInSectionTermList: true
     UseHugoToc: true
     comments: true
+  
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
