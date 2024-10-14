@@ -1,5 +1,5 @@
 baseURL: 'https://artsnet.ir/'
-languageCode: 'en-us'
+# languageCode: 'en-us'
 title: 'artsnet'
 theme: 'PaperMod'
 
@@ -17,7 +17,6 @@ languages:
   fa:
     contentDir: content/fa
     disabled: false
-    # languageCode: fa-FA
     languageDirection: rtl
     languageName: "farsi"
     weight: 2
@@ -39,7 +38,6 @@ languages:
   en:
     contentDir: content/en
     disabled: false
-    # languageCode: en-US
     languageDirection: ltr
     languageName: "english"
     weight: 1
