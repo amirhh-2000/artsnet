@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://artsnet.ir/sitemap.xml

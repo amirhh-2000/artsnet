@@ -1,0 +1,107 @@
+baseURL: 'https://artsnet.ir/'
+# languageCode: 'en-us'
+title: 'artsnet'
+theme: 'PaperMod'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: G-RYR2VQET39
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+languages:
+  fa:
+    contentDir: content/fa
+    disabled: false
+    languageDirection: rtl
+    languageName: "farsi"
+    weight: 2
+    params:
+      homeInfoParams:
+        Title: امیرحسین هستم
+        Content: سعی میکنم کتاب زندگیمو با شما به اشتراک بگذارم
+    menus:
+      main:
+      - name: خانه
+        pageRef: /
+        weight: 10
+      - name: درباره من
+        pageRef: /about-me
+        weight: 20
+      - name: تگ‌ها
+        pageRef: /fa-tags
+        weight: 30
+  en:
+    contentDir: content/en
+    disabled: false
+    languageDirection: ltr
+    languageName: "english"
+    weight: 1
+    params:
+      homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+    menus:
+      main:
+      - name: Home
+        pageRef: /
+        weight: 10
+      - name: About me
+        pageRef: /about-me
+        weight: 20
+      - name: Tags
+        pageRef: /en-tags
+        weight: 30
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  keywords: [Blog, Python, Programming, Article, Software, Growth]
+  author: Me
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/amirhh-2000"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/amirhossein-hasanzadeh"
+  
+  label:
+    text: "artsnet"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  post:
+    author: Amir Hossein
+    DateFormat: "January 2, 2006"
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowRssButtonInSectionTermList: true
+    UseHugoToc: true
+    comments: true
+  
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
