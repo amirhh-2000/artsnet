@@ -30,10 +30,10 @@ languages:
         pageRef: /
         weight: 10
       - name: درباره من
-        pageRef: fa/about-me
+        pageRef: /about-me
         weight: 20
       - name: تگ‌ها
-        pageRef: fa/tags
+        pageRef: /tags
         weight: 30
   en:
     contentDir: content/en
@@ -51,10 +51,10 @@ languages:
         pageRef: /
         weight: 10
       - name: About me
-        pageRef: en/about-me
+        pageRef: /about-me
         weight: 20
       - name: Tags
-        pageRef: en/tags
+        pageRef: /tags
         weight: 30
 
 minify:
