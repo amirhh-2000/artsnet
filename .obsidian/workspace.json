@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/fa/posts/wisdom/index.md",
-                "mode": "source",
+                "file": "content/fa/posts/thanks-god/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -161,8 +161,10 @@
   },
   "active": "68fa72f24d5a5a2c",
   "lastOpenFiles": [
-    "content/fa/posts/why-are-we-not-happy/index.md",
     "content/fa/posts/wisdom/index.md",
+    "content/fa/posts/thanks-god/index.md",
+    "content/fa/posts/why-are-we-not-happy/index.md",
+    "content/fa/posts/thanks-god",
     "content/fa/posts/wisdom",
     "public/robots.txt",
     "public/sitemap.xml",
@@ -172,7 +174,6 @@
     "public/index.html",
     "public/en/tags/index.html",
     "public/en/categories/index.html",
-    "public/en/tags",
     "public/favicon-32x32.png",
     "public/favicon-16x16.png",
     "public/apple-touch-icon.png",
