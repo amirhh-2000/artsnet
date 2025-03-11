@@ -25,7 +25,7 @@ languages:
     languageName: "farsi"
     weight: 2
     taxonomies:
-      tag: تگ‌ها
+      tag: tags
       category: categories
     params:
       homeInfoParams:
