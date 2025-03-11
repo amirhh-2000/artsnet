@@ -1,0 +1,48 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="content">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+<ul class="terms-tags">
+  {{- $type := .Type }}
+  {{- range $key, $value := .Data.Terms.Alphabetical }}
+  {{- $name := .Name }}
+  {{- $count := .Count }}
+  {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Name }} <span class="count">{{ $count }}</span></a>
+  </li>
+  {{- end }}
+  {{- end }}
+</ul>
+{{- end }}
+
+<!-- File path: layouts/tags/terms.html.en -->
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="content">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+<ul class="terms-tags">
+  {{- $type := .Type }}
+  {{- range $key, $value := .Data.Terms.Alphabetical }}
+  {{- $name := .Name }}
+  {{- $count := .Count }}
+  {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Name }} <span class="count">{{ $count }}</span></a>
+  </li>
+  {{- end }}
+  {{- end }}
+</ul>
+{{- end }}

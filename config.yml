@@ -13,6 +13,10 @@ googleAnalytics: G-RYR2VQET39
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
+taxonomies:
+  tag: tags
+  category: categories
+
 languages:
   fa:
     contentDir: content/fa
@@ -20,10 +24,13 @@ languages:
     languageDirection: rtl
     languageName: "farsi"
     weight: 2
+    taxonomies:
+      tag: tags
+      category: categories
     params:
       homeInfoParams:
         Title: امیرحسین هستم
-        Content: اینجا افکار و تجربیاتم رو می‌نویسم
+        Content: اینجا افکار و تجربیاتم رو می‌نویسم.
     menus:
       main:
       - name: خانه
@@ -33,7 +40,7 @@ languages:
         pageRef: /about-me
         weight: 20
       - name: تگ‌ها
-        pageRef: /tags
+        pageRef: /fa/tags/
         weight: 30
   en:
     contentDir: content/en
@@ -41,10 +48,13 @@ languages:
     languageDirection: ltr
     languageName: "english"
     weight: 1
+    taxonomies:
+      tag: tags
+      category: categories
     params:
       homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "I'm Amir Hossein \U0001F44B"
+        Content: I write my thoughts and experiences here.
     menus:
       main:
       - name: Home
@@ -54,7 +64,7 @@ languages:
         pageRef: /about-me
         weight: 20
       - name: Tags
-        pageRef: /tags
+        pageRef: /en/tags/
         weight: 30
 
 minify:
@@ -63,8 +73,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  keywords: [Blog, Python, Programming, Article, Software, Growth]
-  author: Me
+  keywords: [Blog, Python, Programming, Article, Software, Growth, Spirituality, Life, Experience]
+  author: Amir Hossein Hasanzadeh
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   disableSpecial1stPost: false
