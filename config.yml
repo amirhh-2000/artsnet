@@ -23,17 +23,17 @@ languages:
     params:
       homeInfoParams:
         Title: امیرحسین هستم
-        Content: سعی میکنم کتاب زندگیمو با شما به اشتراک بگذارم
+        Content: اینجا افکار و تجربیاتم رو می‌نویسم
     menus:
       main:
       - name: خانه
         pageRef: /
         weight: 10
       - name: درباره من
-        pageRef: /about-me
+        pageRef: fa/about-me
         weight: 20
       - name: تگ‌ها
-        pageRef: /fa-tags
+        pageRef: fa/tags
         weight: 30
   en:
     contentDir: content/en
@@ -51,10 +51,10 @@ languages:
         pageRef: /
         weight: 10
       - name: About me
-        pageRef: /about-me
+        pageRef: en/about-me
         weight: 20
       - name: Tags
-        pageRef: /en-tags
+        pageRef: en/tags
         weight: 30
 
 minify:
