@@ -5,7 +5,7 @@ authors:
   - Amir Hossein
 tags:
   - رشد
-draft: true
+draft: false
 url: thanks-god
 ---
 حتما شما هم این آیه رو یا دیدید یا شنیدید:
