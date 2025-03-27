@@ -4,8 +4,8 @@ date: 2025-03-11
 authors:
   - Amir Hossein
 tags:
-  - رشد
   - فلسفه
+  - معنا
 draft: false
 url: thanks-god
 ---
