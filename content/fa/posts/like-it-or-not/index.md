@@ -5,7 +5,7 @@ authors:
   - Amir Hossein
 tags:
   - معنا
-draft: true
+draft: false
 url: like-it-or-not
 ---
 در آیه 11 سوره فصلت فرمود:
