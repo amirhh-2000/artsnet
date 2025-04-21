@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/fa/posts/change-law/index.md",
-                "mode": "preview",
+                "file": "content/fa/posts/law-of-change/index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/fa/posts/law-of-change/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -161,9 +162,9 @@
   },
   "active": "5fe244bf06e73fec",
   "lastOpenFiles": [
-    "content/fa/posts/change-law",
+    "content/fa/posts/law-of-change",
     "content/fa/posts/like-it-or-not/index.md",
-    "content/fa/posts/change-law/index.md",
+    "content/fa/posts/law-of-change/index.md",
     "Pasted image 20250421220015.png",
     "content/fa/posts/like-it-or-not",
     "content/fa/tags/_index.md",
