@@ -12,10 +12,8 @@ url: like-it-or-not
 
 حالا اما، یکم درک به اصطلاح بزرگونه‌تری از قانون پیدا کردم و فهمیدم ما قوانین **متافیزیکی** هم داریم. مثل قانون کارما که میگه: هر چه کنی به خود کنی، گر همه نیک و بد کنی! خب، واضحه که این قوانین هم به برقراری نظم هستی کمک می‌کنند. توی این پست، میخوام یکی از این قوانین رو بررسی کنیم.
 
-<figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/It_Shoots_Further_Than_He_Dreams.jpg/960px-It_Shoots_Further_Than_He_Dreams.jpg" alt="قانون کارما">
-  <figcaption>قانون کارما</figcaption>
-</figure>
+![قانون کارما](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/It_Shoots_Further_Than_He_Dreams.jpg/960px-It_Shoots_Further_Than_He_Dreams.jpg)
+*قانون کارما*
 ## قانون در قرآن
 در آیه 11 سوره فصلت فرمود:
 >ثُمَّ اسْتَوَىٰ إِلَى السَّمَاءِ وَهِيَ دُخَانٌ فَقَالَ لَهَا وَلِلْأَرْضِ ائْتِيَا **طَوْعًا أَوْ كَرْهًا** قَالَتَا أَتَيْنَا طَائِعِينَ
