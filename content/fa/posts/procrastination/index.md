@@ -6,7 +6,7 @@ authors:
 tags:
   - رشد
   - اهمال_کاری
-draft: false
+draft: true
 url: overcoming-procrastination
 ---
 # غول اهمال‌کاری رو چطوری شکست بدیم؟
