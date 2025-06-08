@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/fa/posts/molavi-54/index.md",
+                "file": "content/fa/posts/procrastination/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -162,8 +162,10 @@
   },
   "active": "5fe244bf06e73fec",
   "lastOpenFiles": [
-    "content/fa/posts/hafez-143/index.md",
     "content/fa/posts/molavi-54/index.md",
+    "content/fa/posts/procrastination/index.md",
+    "content/fa/posts/procrastination",
+    "content/fa/posts/hafez-143/index.md",
     "content/fa/posts/law-of-change/index.md",
     "content/fa/posts/molavi-54",
     "content/fa/posts/law-of-change",
@@ -180,7 +182,6 @@
     "public/robots.txt",
     "public/sitemap.xml",
     "public/fa/categories/index.html",
-    "public/fa/categories",
     "public/favicon-32x32.png",
     "public/favicon-16x16.png",
     "public/apple-touch-icon.png",
