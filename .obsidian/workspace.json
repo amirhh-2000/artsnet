@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1648f5593470b7f5",
+        "id": "78567e6204c6e894",
         "type": "tabs",
         "children": [
           {
-            "id": "5fe244bf06e73fec",
+            "id": "ad6ca97c24744500",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/fa/posts/self-control/index.md",
+                "file": "content/fa/posts/habits-and-values/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#موفقیت_اتفاقی_نیست",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,10 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fe244bf06e73fec",
+  "active": "6c622b2b673030d7",
   "lastOpenFiles": [
-    "content/fa/posts/wisdom/index.md",
     "content/fa/posts/self-control/index.md",
+    "content/fa/posts/habits-and-values/index.md",
+    "content/fa/posts/wisdom/index.md",
+    "content/fa/posts/habits-and-values",
     "content/fa/posts/self-control",
     "content/fa/posts/law-of-change/index.md",
     "content/fa/posts/overcoming-procrastination/index.md",
@@ -182,7 +184,6 @@
     "content/fa/posts/thanks-god",
     "content/fa/posts/wisdom",
     "public/robots.txt",
-    "public/sitemap.xml",
     "public/favicon-32x32.png",
     "public/favicon-16x16.png",
     "public/apple-touch-icon.png",
