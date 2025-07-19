@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/fa/posts/habits-and-values/index.md",
+                "file": "content/fa/posts/diffusion-model/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -160,10 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c622b2b673030d7",
+  "active": "ad6ca97c24744500",
   "lastOpenFiles": [
-    "content/fa/posts/self-control/index.md",
     "content/fa/posts/habits-and-values/index.md",
+    "content/fa/posts/diffusion-model/index.md",
+    "content/fa/posts/diffusion-model",
+    "content/fa/posts/self-control/index.md",
     "content/fa/posts/wisdom/index.md",
     "content/fa/posts/habits-and-values",
     "content/fa/posts/self-control",
@@ -183,7 +185,6 @@
     "content/fa/posts/why-are-we-not-happy/index.md",
     "content/fa/posts/thanks-god",
     "content/fa/posts/wisdom",
-    "public/robots.txt",
     "public/favicon-32x32.png",
     "public/favicon-16x16.png",
     "public/apple-touch-icon.png",
